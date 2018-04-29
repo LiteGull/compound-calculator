@@ -46,6 +46,11 @@ def user_input():
     return principle, rate, time
 
 
+def interest_calculator():
+    principle, rate, time = user_input()
+    return round(float(principle * float(1 + rate / 100) ** time), 2)
+
+
 if __name__ == "__main__":
     simple_interest()
     compound_interest()

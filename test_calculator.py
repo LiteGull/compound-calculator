@@ -1,5 +1,5 @@
 import unittest
-from main import CompoundInterest
+from calculator import CompoundInterest
 
 
 class TestCalculator(unittest.TestCase):
